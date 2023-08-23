@@ -1,0 +1,51 @@
+.nav-link:hover{
+    color: hsl(5, 85%, 63%) !important;
+}
+.btn-primary{
+    background-color: hsl(5, 85%, 63%) !important;
+    border: none;
+}
+.high{
+    height: 450px;
+}
+.images{
+    background: url("fandi/images/image-web-3-desktop.jpg");
+    height: 50%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h4{
+    color: hsl(233, 8%, 79%);
+}
+a:hover{
+    color: hsl(5, 85%, 63%);
+}
+h3{
+    color: hsl(36, 100%, 99%);
+}
+button:hover{
+    background-color: black !important;
+}
+.text-light{
+    color: hsl(236, 13%, 42%) !important;
+}
+@media (max-width:768px ) {
+    .high{
+        height: 120vh;
+    }
+    .images{
+        background: url("fandi/images/image-web-3-mobile.jpg");
+    }
+    .foot{
+        margin-top: 15px;
+    }
+    
+}
+@media (max-width: 991px){
+    .foot{
+        margin-top: 100px;
+    }
+}

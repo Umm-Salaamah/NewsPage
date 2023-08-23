@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+ <!-- Home
+  New
+  Popular
+  Trending
+  Categories
+
+  The Bright Future of Web 3.0?
+
+  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?
+
+  Read more
+
+  New 
+
+  Hydrogen VS Electric Cars
+  Will hydrogen-fueled cars ever catch up to EVs?
+
+  The Downsides of AI Artistry
+  What are the possible adverse effects of on-demand AI image generation?
+
+  Is VC Funding Drying Up?
+  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+  01
+  Reviving Retro PCs
+  What happens when old PCs are given modern upgrades?
+
+  02
+  Top 10 Laptops of 2022
+  Our best picks for various needs and budgets.
+
+  03
+  The Growth of Gaming
+  How the pandemic has sparked fresh opportunities.-->
+  <div class="container">
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container d-flex">
+            <a class="navbar-brand col-8" href="#"><img src="fandi/images/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Categories</a>
+              </li>
+      
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--<div class="row">
+        <nav class="navbar  bg-light">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+              <img src="fandi/images/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="#" class="nav-link" aria-current="page">HOW WE WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link" aria-current="page">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link" aria-current="page">ACCOUNT</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link" aria-current="page">VIEW PLANS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>-->
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-7 high">
+          <div class="images"></div>
+          <div class="row" style="height: 50%;">
+           <div class="col-md-6"> 
+            <h1 class="fw-bold" style="font-size: 50px;">The Bright Future of Web 3.0?</h1>
+          </div>
+           <div class="col-md-6 d-flex flex-column justify-content-evenly">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+            <button class="btn btn-primary w-50">READ  MORE</button>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4 p-4" style="background-color: hsl(240, 100%, 5%); height: 90vh;">
+          <h2 class="fw-bold mt-" style="color: hwb(35 33% 9%);">New</h2>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p class="text-light"> Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr style="color: white">
+          <h3>The Downsides of AI Artistry
+          </h3>
+          <p class="text-light">What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr style="color: white">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p class="text-light">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 foot" style=" height: 100px;">
+          <div class="row justify-content-evenly">
+            <img src="fandi/images/image-retro-pcs.jpg" class="col-3" style="height: 100px;" alt="">
+            <div class="col-7">
+              <h4>01</h4>
+              <a class="fw-bold">Reviving Retro PCs</a>
+              <p style="font-size: 11px;">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 foot" style="height: 100px;">
+          <div class="row justify-content-evenly">
+            <img src="fandi/images/image-top-laptops.jpg" class="col-3" style="height: 100px;" alt="">
+            <div class="col-7">
+              <h4>02</h4>
+              <a class="fw-bold"> Top Laptops of 2022</a>
+              <p style="font-size: 11px;">Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 foot" style=" height: 100px;">
+          <div class="row justify-content-evenly">
+            <img src="fandi/images/image-gaming-growth.jpg" class="col-3" style="height: 100px;" alt="">
+            <div class="col-7">
+              <h4>03</h4>
+              <a class="fw-bold">Gaming</a>
+              <p style="font-size: 11px;">How the pandemic has sparked fresh opportunities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="attribution mt-5">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Umm_Salaamah</a>.
+  </div>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
