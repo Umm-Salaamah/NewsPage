@@ -17,6 +17,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.bar{
+    height: 90vh;
+}
 h4{
     color: hsl(233, 8%, 79%);
 }
@@ -25,6 +28,9 @@ a:hover{
 }
 h3{
     color: hsl(36, 100%, 99%);
+}
+.big{
+    height: 50%;
 }
 button:hover{
     background-color: black !important;
@@ -41,6 +47,12 @@ button:hover{
     }
     .foot{
         margin-top: 15px;
+    }
+    .big{
+        height: 30%;
+    }
+    .bar{
+        height: 60vh;
     }
     
 }
